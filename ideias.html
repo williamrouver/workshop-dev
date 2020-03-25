@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ideias - Casa Criativa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
+</head>
+<body id="page-ideias">
+    <div id="container">
+    <header>
+        <a href="index.html"><img src="logo.png" alt="Logotipo"></a>
+        <nav>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Ideias</a></li>
+            <li><a href="#" onclick="onOff()" class="button">Nova ideia</a></li>
+        </nav>
+    </header>
+
+    <section id="title">
+        <p>em exibição</p>
+        <h1>Ideias</h1>
+    </section>
+
+    <main>
+        <section id="ideas">
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="Champanhe">
+
+                <div class="content">
+                    <h3>Teste 1</h3>
+                    <p>Teste</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam voluptates magni consequatur consectetur aperiam rem iste non ab, aliquam animi ut illum odio dolor esse, eum tempore facilis accusantium!
+                    </div>
+                    <a href="#">Ir para a ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2728/2728995.svg" alt="Champanhe">
+
+                <div class="content">
+                    <h3>Teste 1</h3>
+                    <p>Teste</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam voluptates magni consequatur consectetur aperiam rem iste non ab, aliquam animi ut illum odio dolor esse, eum tempore facilis accusantium!
+                    </div>
+                    <a href="#">Ir para a ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729034.svg" alt="Champanhe">
+
+                <div class="content">
+                    <h3>Teste 1</h3>
+                    <p>Teste</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam voluptates magni consequatur consectetur aperiam rem iste non ab, aliquam animi ut illum odio dolor esse, eum tempore facilis accusantium!
+                    </div>
+                    <a href="#">Ir para a ideia</a>
+                </div>
+            </div>
+
+            <div class="idea">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729034.svg" alt="Champanhe">
+
+            <div class="content">
+                <h3>Teste 1</h3>
+                <p>Teste</p>
+                <div class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit numquam voluptates magni consequatur consectetur aperiam rem iste non ab, aliquam animi ut illum odio dolor esse, eum tempore facilis accusantium!
+                </div>
+                <a href="#">Ir para a ideia</a>
+            </div>
+        </div>
+
+        </section>
+    </main>
+
+    <footer>Com ♥️ <a href="http://rocketseat.com.br">Rolezeiros</a></footer>
+    </div>
+            <!-- Modal -->
+
+            <div id="modal" class="hide">
+                <div class="content">
+                    <h1>Nova ideia</h1>
+                    <form action="">
+            
+                        <div class="input-wrapper">
+                            <label for="title">Título da Ideia</label>
+                            <input type="text" name="title">
+                        </div>
+            
+                        <div class="input-wrapper"><label for="category">Categoria</label>
+                            <input type="text" name="category">
+                        </div>
+    
+                        <div class="input-wrapper">
+                            <label for="image">Link da imagem</label>
+                            <input type="url" name="image">
+                        </div>
+    
+                        <div class="input-wrapper">
+                            <label for="description">Descrição da Ideia</label>
+                            <textarea name="description" rows="5"></textarea>
+                        </div>
+    
+                        <div class="input-wrapper">
+                             <label for="link">Link da ideia</label>
+                            <input type="url" name="link">
+                        </div>  
+                        <a onclick="onOff()">Voltar</a>
+                        <button>Salvar</button>
+            
+                    </form>
+    
+                </div>
+            </div>
+    
+    
+            <script src="script.js"></script>
+
+</body>
+</html>
